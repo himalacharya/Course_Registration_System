@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bootstrap-3.3.7-dist">
+    <CLASSES>
+      <root url="jar://$APPLICATION_CONFIG_DIR$/bootstrap-3.3.7-dist.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$APPLICATION_CONFIG_DIR$/bootstrap-3.3.7-dist.zip!/" recursive="false" />
+  </library>
+</component>

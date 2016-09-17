@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JDBC_Servlet_MVC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JDBC_Servlet_MVC_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JDBC_Servlet_MVC/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JDBC_Servlet_MVC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jdbc-drivers" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/Apache Tomcat 8.0.27/lib/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="smtp-1.4.5" />
+          <element id="library" level="project" name="javax.mail" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

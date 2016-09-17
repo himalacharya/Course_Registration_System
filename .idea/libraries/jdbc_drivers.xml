@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jdbc-drivers">
+    <CLASSES>
+      <root url="file://C:/Program Files/Apache Software Foundation/Apache Tomcat 8.0.27/lib/jdbc-drivers" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/Program Files/Apache Software Foundation/Apache Tomcat 8.0.27/lib/jdbc-drivers" recursive="false" />
+  </library>
+</component>

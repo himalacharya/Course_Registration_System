@@ -1,0 +1,49 @@
+<dataSource name="MySQL - sevletjdbc@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="sevletjdbc">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="crud" />
+    <schema id="3" name="hibernatedb" />
+    <schema id="4" name="information_schema" />
+    <schema id="5" name="mysql" />
+    <schema id="6" name="performance_schema" />
+    <schema id="7" name="sakila" />
+    <schema id="8" name="student" />
+    <schema id="9" name="studentmanagementdb" />
+    <schema id="10" name="sys" />
+    <schema id="11" name="test" />
+    <schema id="12" name="users" />
+    <schema id="13" name="world" />
+    <table id="14" parent="1" name="tbl_courses" />
+    <column id="15" parent="14" name="course_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="16" parent="14" name="course_name">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="17" parent="14" name="course_description">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="18" parent="14" name="course_type">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="19" parent="14" name="added_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="20" parent="14" name="modified_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="21" parent="14" name="status">
+      <data-type>enum('false', 'true')|0</data-type>
+    </column>
+    <column id="22" parent="14" name="course_duration">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="23" parent="14" name="PRIMARY">
+      <columns>course_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
